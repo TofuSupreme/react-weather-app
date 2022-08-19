@@ -2,7 +2,12 @@ import "./current-weather.css";
 
 const CurrentWeather = () => {
   return (
-    "Hey there"
+    <div className="weather">
+      <div className="top">
+        <p className="city">Kashima</p>
+        <p className="weather-description">Cloudy</p>
+      </div>
+    </div>
   )
 }
 
